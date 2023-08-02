@@ -6,7 +6,7 @@
     border-radius: 10px 10px 0 0;
 }
 
-Blocks / element / __label .element__label {
+.element__label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,8 +15,8 @@ Blocks / element / __label .element__label {
     margin-right: 20px;
 }
 
-Blocks / element / __like .element__like {
-    background-image: url(../../../images/element-like.svg);
+.element__like {
+    background-image: url(./images/like.svg);
     border: none;
     background-color: #FFF;
     width: 22px;
@@ -31,11 +31,11 @@ Blocks / element / __like .element__like {
 }
 
 .element__like:active {
-    background-image: url(../../../images/like-active.svg);
+    background-image: url(./images/Union.svg);
     opacity: 1;
 }
 
-Blocks / element / __title .element__title {
+.element__title {
     color: #000000;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -51,14 +51,14 @@ Blocks / element / __title .element__title {
 
 }
 
-Element css .element {
+.element {
     min-height: 361px;
     background-color: #FFFFFF;
     border-radius: 10px;
 
 }
 
-Folder elements css .elements {
+.elements {
     max-width: 880px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
@@ -81,8 +81,6 @@ Folder elements css .elements {
 
 }
 
-Footer // __copyright
-
 .footer__copyright {
     color: #545454;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
@@ -102,7 +100,7 @@ Footer // __copyright
 
 }
 
-Footer.css .footer {
+.footer {
     max-width: 880px;
     margin: auto;
     padding: 61px 19px 60px;
@@ -116,10 +114,9 @@ Footer.css .footer {
 
 }
 
-Header // __logo
 
 .header__logo {
-    background-image: url(../../../images/header-logo.svg);
+    background-image: url(./images/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 142px;
@@ -137,7 +134,7 @@ Header // __logo
 
 }
 
-Header css .header {
+.header {
     padding-top: 45px;
     max-width: 880px;
     margin: auto;
@@ -151,7 +148,7 @@ Header css .header {
     }
 }
 
-Page css .page {
+.page {
     background-color: #000000;
     max-width: 1280px;
     margin: auto;
@@ -175,7 +172,7 @@ Page css .page {
 }
 
 
-Folder popup __button .popup__button {
+.popup__button {
     width: 358px;
     height: 50px;
     font-size: 18px;
@@ -207,11 +204,11 @@ Folder popup __button .popup__button {
 
 }
 
-__closed .popup__closed {
+.popup__closed {
     position: absolute;
     right: -35px;
     top: -70px;
-    background-image: url(../../../images/popup-closed.svg);
+    background-image: url(./images/Close\ Icon.svg);
     background-color: #000;
     width: 32px;
     height: 32px;
@@ -233,7 +230,7 @@ __closed .popup__closed {
     }
 }
 
-__container .popup__container {
+.popup__container {
     max-width: 430px;
     height: 330px;
     margin: auto;
@@ -253,7 +250,7 @@ __container .popup__container {
     }
 }
 
-__form .popup__form {
+.popup__form {
     padding-left: 36px;
     position: relative;
 
@@ -268,14 +265,14 @@ __form .popup__form {
 
 }
 
-__handlers .popup__handlers {
+.popup__handlers {
     border: 0;
     margin: 0;
     padding: 0;
 
 }
 
-__heading .popup__heading {
+.popup__heading {
     color: #000000;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -295,14 +292,14 @@ __heading .popup__heading {
 
 }
 
-__input-container .popup__input-container {
+.popup__input-container {
     border: 0;
     margin: 0;
     margin-top: 54px;
     padding: 0;
 }
 
-__item .popup__item {
+.popup__item {
     border: 0;
     width: 358px;
     height: 24px;
@@ -331,11 +328,11 @@ __item .popup__item {
 
 }
 
-__opened .popup_opened {
+.popup_opened {
     display: block;
 }
 
-Popup css .popup {
+.popup {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -358,12 +355,12 @@ Popup css .popup {
 
 
 
-Profile folder __add-element .profile__add-element {
+.profile__add-element {
     width: 150px;
     height: 50px;
     border: 2px solid #FFFFFF;
     background-color: #000000;
-    background-image: url(../../../images/add-image.svg);
+    background-image: url(./images/plus.svg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -385,7 +382,7 @@ Profile folder __add-element .profile__add-element {
     }
 }
 
-__avatar .profile__avatar {
+.profile__avatar {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -401,7 +398,7 @@ __avatar .profile__avatar {
 
 }
 
-__container .profile__container {
+.profile__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -415,12 +412,12 @@ __container .profile__container {
     }
 }
 
-__edit-profile .profile__edit-profile {
+.profile__edit-profile {
     width: 24px;
     height: 24px;
     border: 1px solid white;
     background-color: #000000;
-    background-image: url(../../../images/edd-profile.svg);
+    background-image: url(./images/pen.svg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -434,7 +431,7 @@ __edit-profile .profile__edit-profile {
     cursor: pointer;
 }
 
-__info .profile__info {
+.profile__info {
     max-width: 336px;
     display: flex;
     flex-direction: row;
@@ -449,13 +446,13 @@ __info .profile__info {
     }
 }
 
-__infotitle .profile__info-title {
+.profile__info-title {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-__label .profile__label {
+.profile__label {
     display: flex;
     flex-direction: row;
 
@@ -470,7 +467,7 @@ __label .profile__label {
 }
 
 
-__subitle .profile__subtitle {
+.profile__subtitle {
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -495,7 +492,7 @@ __subitle .profile__subtitle {
 
 }
 
-__title .profile__title {
+.profile__title {
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -520,7 +517,7 @@ __title .profile__title {
     }
 }
 
-Profile css .profile {
+.profile {
     max-width: 880px;
     margin: auto;
     padding-top: 40px;
