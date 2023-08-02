@@ -6,9 +6,7 @@
     border-radius: 10px 10px 0 0;
 }
 
-
-
-.element__label {
+Blocks / element / __label .element__label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,9 +15,7 @@
     margin-right: 20px;
 }
 
-
-
-.element__like {
+Blocks / element / __like .element__like {
     background-image: url(../../../images/element-like.svg);
     border: none;
     background-color: #FFF;
@@ -39,9 +35,7 @@
     opacity: 1;
 }
 
-
-
-.element__title {
+Blocks / element / __title .element__title {
     color: #000000;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -57,17 +51,14 @@
 
 }
 
-
-
-.element {
+Element css .element {
     min-height: 361px;
     background-color: #FFFFFF;
     border-radius: 10px;
 
 }
 
-
-.elements {
+Folder elements css .elements {
     max-width: 880px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
@@ -90,7 +81,7 @@
 
 }
 
-
+Footer // __copyright
 
 .footer__copyright {
     color: #545454;
@@ -111,9 +102,7 @@
 
 }
 
-
-
-.footer {
+Footer.css .footer {
     max-width: 880px;
     margin: auto;
     padding: 61px 19px 60px;
@@ -127,7 +116,7 @@
 
 }
 
-
+Header // __logo
 
 .header__logo {
     background-image: url(../../../images/header-logo.svg);
@@ -148,9 +137,7 @@
 
 }
 
-
-
-.header {
+Header css .header {
     padding-top: 45px;
     max-width: 880px;
     margin: auto;
@@ -164,9 +151,7 @@
     }
 }
 
-
-
-.page {
+Page css .page {
     background-color: #000000;
     max-width: 1280px;
     margin: auto;
@@ -190,11 +175,7 @@
 }
 
 
-
-
-
-
-.popup__button {
+Folder popup __button .popup__button {
     width: 358px;
     height: 50px;
     font-size: 18px;
@@ -226,9 +207,7 @@
 
 }
 
-
-
-.popup__closed {
+__closed .popup__closed {
     position: absolute;
     right: -35px;
     top: -70px;
@@ -254,9 +233,7 @@
     }
 }
 
-
-
-.popup__container {
+__container .popup__container {
     max-width: 430px;
     height: 330px;
     margin: auto;
@@ -276,9 +253,7 @@
     }
 }
 
-
-
-.popup__form {
+__form .popup__form {
     padding-left: 36px;
     position: relative;
 
@@ -293,16 +268,14 @@
 
 }
 
-
-.popup__handlers {
+__handlers .popup__handlers {
     border: 0;
     margin: 0;
     padding: 0;
 
 }
 
-
-.popup__heading {
+__heading .popup__heading {
     color: #000000;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -322,16 +295,14 @@
 
 }
 
-
-.popup__input-container {
+__input-container .popup__input-container {
     border: 0;
     margin: 0;
     margin-top: 54px;
     padding: 0;
 }
 
-
-.popup__item {
+__item .popup__item {
     border: 0;
     width: 358px;
     height: 24px;
@@ -360,14 +331,11 @@
 
 }
 
-
-.popup_opened {
+__opened .popup_opened {
     display: block;
 }
 
-
-
-.popup {
+Popup css .popup {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -390,8 +358,7 @@
 
 
 
-
-.profile__add-element {
+Profile folder __add-element .profile__add-element {
     width: 150px;
     height: 50px;
     border: 2px solid #FFFFFF;
@@ -418,8 +385,7 @@
     }
 }
 
-
-.profile__avatar {
+__avatar .profile__avatar {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -435,8 +401,7 @@
 
 }
 
-
-.profile__container {
+__container .profile__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -450,8 +415,7 @@
     }
 }
 
-
-.profile__edit-profile {
+__edit-profile .profile__edit-profile {
     width: 24px;
     height: 24px;
     border: 1px solid white;
@@ -470,8 +434,7 @@
     cursor: pointer;
 }
 
-
-.profile__info {
+__info .profile__info {
     max-width: 336px;
     display: flex;
     flex-direction: row;
@@ -486,15 +449,13 @@
     }
 }
 
-
-.profile__info-title {
+__infotitle .profile__info-title {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-
-.profile__label {
+__label .profile__label {
     display: flex;
     flex-direction: row;
 
@@ -509,8 +470,7 @@
 }
 
 
-
-.profile__subtitle {
+__subitle .profile__subtitle {
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -535,8 +495,7 @@
 
 }
 
-
-.profile__title {
+__title .profile__title {
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -561,8 +520,7 @@
     }
 }
 
-
-.profile {
+Profile css .profile {
     max-width: 880px;
     margin: auto;
     padding-top: 40px;
