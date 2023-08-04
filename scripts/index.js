@@ -29,7 +29,7 @@ const cardElementLink = document.querySelector('.element__image');
 const initialCards = [
     {
       name: 'Aberdeen',
-      link: '../images/aberdeen.jpg'
+      link: '/images/aberdeen.jpg'
     },
     {
       name: 'Brixton',
