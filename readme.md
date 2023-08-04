@@ -1,1 +1,1 @@
-:)
+GitHub Pages link to website https://azamatbolat.github.io/mesto/
