@@ -33,23 +33,23 @@ const initialCards = [
     },
     {
       name: 'Brixton',
-      link: '../images/brixton.jpg'
+      link: '/images/brixton.jpg'
     },
     {
       name: 'Glasgow',
-      link: '../images/glasgow.jpg'
+      link: '/images/glasgow.jpg'
     },
     {
       name: 'London',
-      link: '../images/london.jpg'
+      link: '/images/london.jpg'
     },
     {
       name: 'Manchester',
-      link: '../images/manchester.jpg'
+      link: '/images/manchester.jpg'
     },
     {
       name: 'Stonehaven',
-      link: '../images/stonehaven.jpg'
+      link: '/images/stonehaven.jpg'
     }
 ];
     
