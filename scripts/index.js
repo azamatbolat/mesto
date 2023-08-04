@@ -28,28 +28,28 @@ const cardElementLink = document.querySelector('.element__image');
 
 const initialCards = [
     {
-      name: 'Побережье Италии',
-      link: './images/italy.jpg'
+      name: 'Aberdeen',
+      link: '../images/aberdeen.jpeg'
     },
     {
-      name: 'Побережье Турции',
-      link: './images/tyrkey.jpg'
+      name: 'Brixton',
+      link: '../images/brixton.jpeg'
     },
     {
-      name: 'Казанский Кремль',
-      link: './images/kazan.jpg'
+      name: 'Glasgow',
+      link: '../images/glasgow.jpeg'
     },
     {
-      name: 'Санкт-Петербург',
-      link: './images/kazanskii-sobor.jpg'
+      name: 'London',
+      link: '../images/london.jpeg'
     },
     {
-      name: 'Красная Поляна',
-      link: './images/krasnaya-polyana.jpg'
+      name: 'Manchester',
+      link: '../images/manchester.jpeg'
     },
     {
-      name: 'Югорск',
-      link: './images/siberia.jpg'
+      name: 'Stonehaven',
+      link: '../images/stonehaven.jpeg'
     }
 ];
     
