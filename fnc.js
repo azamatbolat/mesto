@@ -30,12 +30,12 @@ function formSubmitHandler(evt) {
 function popupOpen() {
   setPopupInputValue();
   popupNode.classList.add("popup_opened");
-  console.log("включил");
+  console.log("turn on");
 }
 
 function popupClose() {
   popupNode.classList.remove("popup_opened");
-  console.log("выключил");
+  console.log("turn off");
 }
 
 editProfile.addEventListener("click", popupOpen);
