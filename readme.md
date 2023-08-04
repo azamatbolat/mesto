@@ -1,1 +1,1 @@
-GitHub Pages link to the website https://azamatbolat.github.io/mesto/
+GitHub Pages link to the website https://azamatbolat.github.io/uk-cities/
