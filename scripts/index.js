@@ -29,27 +29,27 @@ const cardElementLink = document.querySelector('.element__image');
 const initialCards = [
     {
       name: 'Aberdeen',
-      link: '/images/italy.jpg'
+      link: 'images/kazan.jpg'
     },
     {
       name: 'Brixton',
-      link: '/images/kazan.jpg'
+      link: 'images/kazan.jpg'
     },
     {
       name: 'Glasgow',
-      link: '/images/kazanskii-sobor.jpg'
+      link: 'images/kazanskii-sobor.jpg'
     },
     {
       name: 'London',
-      link: '/images/krasnaya-polyana.jpg'
+      link: 'images/krasnaya-polyana.jpg'
     },
     {
       name: 'Manchester',
-      link: '/images/siberia.jpg'
+      link: 'images/siberia.jpg'
     },
     {
       name: 'Stonehaven',
-      link: '/images/tyrkey.jpg'
+      link: 'images/tyrkey.jpg'
     }
 ];
     
