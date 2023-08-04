@@ -1,43 +1,48 @@
-let popupNode = document.querySelector(".popup");
-let editProfile = document.querySelector(".profile__edit-profile");
-let popupNodeClose = popupNode.querySelector(".popup__closed");
+document.addEventListener("DOMContentLoaded", function () {
+  let popupNode = document.querySelector(".popup");
+  let editProfile = document.querySelector(".profile__edit-profile");
+  let popupNodeClose = popupNode.querySelector(".popup__closed");
+  
+  let profileName = document.querySelector(".profile__title");
+  let profileJob = document.querySelector(".profile__subtitle");
+  
+  let popupForm = popupNode.querySelector(".popup__form");
+  
+  let inputName = popupForm.querySelector(".popup__item_name");
+  let inputJob = popupForm.querySelector(".popup__item_job");
+  let saveProfile = popupForm.querySelector(".popup__button");
+  
+  function setPopupInputValue() {
+    inputName.value = profileName.textContent.trim();
+    inputJob.value = profileJob.textContent.trim();
+  }
+  
+  function setProfileDesc() {
+    profileName.textContent = inputName.value;
+    profileJob.textContent = inputJob.value;
+  }
+  
+  function formSubmitHandler(evt) {
+    evt.preventDefault();
+    setProfileDesc();
+    popupClose();
+  }
+  
+  function popupOpen() {
+    setPopupInputValue();
+    popupNode.classList.add("popup_opened");
+    console.log("turn on");
+  }
+  
+  function popupClose() {
+    popupNode.classList.remove("popup_opened");
+    console.log("turn off");
+  }
+  
+  editProfile.addEventListener("click", popupOpen);
+  popupNodeClose.addEventListener("click", popupClose);
+  popupForm.addEventListener("submit", formSubmitHandler);
+});
 
-let profileName = document.querySelector(".profile__title");
-let profileJob = document.querySelector(".profile__subtitle");
 
-let popupForm = popupNode.querySelector(".popup__form");
 
-let inputName = popupForm.querySelector(".popup__item_name");
-let inputJob = popupForm.querySelector(".popup__item_job");
-let saveProfile = popupForm.querySelector(".popup__button");
-
-function setPopupInputValue() {
-  inputName.value = profileName.textContent.trim();
-  inputJob.value = profileJob.textContent.trim();
-}
-
-function setProfileDesc() {
-  profileName.textContent = inputName.value;
-  profileJob.textContent = inputJob.value;
-}
-
-function formSubmitHandler(evt) {
-  evt.preventDefault();
-  setProfileDesc();
-  popupClose();
-}
-
-function popupOpen() {
-  setPopupInputValue();
-  popupNode.classList.add("popup_opened");
-  console.log("turn on");
-}
-
-function popupClose() {
-  popupNode.classList.remove("popup_opened");
-  console.log("turn off");
-}
-
-editProfile.addEventListener("click", popupOpen);
-popupNodeClose.addEventListener("click", popupClose);
-popupForm.addEventListener("submit", formSubmitHandler);
